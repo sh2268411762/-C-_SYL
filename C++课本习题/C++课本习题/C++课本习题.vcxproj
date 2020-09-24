@@ -24,6 +24,12 @@
     <ClCompile Include="Emloyee类.cpp" />
     <ClCompile Include="HeartRates类.cpp" />
     <ClCompile Include="Invoice类.cpp" />
+    <ClCompile Include="信用额度问题.cpp" />
+    <ClCompile Include="找最大数.cpp" />
+    <ClCompile Include="汽车里数.cpp" />
+    <ClCompile Include="薪金计算器.cpp" />
+    <ClCompile Include="表格输出.cpp" />
+    <ClCompile Include="销售佣金计算器.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

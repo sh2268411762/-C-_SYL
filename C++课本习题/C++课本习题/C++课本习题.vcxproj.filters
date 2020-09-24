@@ -30,5 +30,23 @@
     <ClCompile Include="HeartRates类.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="汽车里数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="表格输出.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="找最大数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="薪金计算器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="销售佣金计算器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="信用额度问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
