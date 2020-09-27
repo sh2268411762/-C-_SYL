@@ -22,6 +22,11 @@
     <ClCompile Include="0917_58.cpp" />
     <ClCompile Include="0921_58.cpp" />
     <ClCompile Include="0922_58.cpp" />
+    <ClCompile Include="0924_58.cpp" />
+    <ClCompile Include="test_Person.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
