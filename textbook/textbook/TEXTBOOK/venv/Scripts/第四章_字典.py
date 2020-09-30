@@ -160,4 +160,40 @@
 #         break
 
 
-# 4-6
+# # 4-6
+# d15 = {"1": ["601398", "工商银行", 5.51], "2": ["000001", "平安银行", 8.94], "3": ["601939", "建设银行", 6.89],
+#        "4": ["601328", "交通银行", 5.61]}
+# no = input("请输入编号：")
+# while no in d15:
+#     print(d15[no])
+#     print("股票代码：%s，股票名称：%s，买入价格：%.2f" % (d15[no][0], d15[no][1], d15[no][2]))
+#     no = input("请输入编号：")
+# else:
+#     print("无查询结果！")
+
+
+# 4-7
+d16 = {"A": 0.9, "B": 0.92, "C": 0.95, "D": 1.0}
+degree = input("请输入客户等级（A-D或a-d）：")
+num1 = input("请输入订货量：")
+while degree != " " and num1 != " " and degree.upper() in ["A", "B", "C", "D"] and num1.isdigit():
+    discount1 = d16[degree.upper()]
+    num = int(num1)
+    if num < 500:
+        discount2 = 0
+    elif num < 2000:
+        discount2 = 0.05
+    elif num < 5000:
+        discount2 = 0.1
+    elif num < 20000:
+        discount2 = 0.15
+    else:
+        discount2 = 0.2
+    total = 100 * num * (discount1) * (1 - discount2)
+    print("客户等级折扣为：", discount1)
+    print("订货量折扣为：", discount2)
+    print("订货金额为：", total)
+    degree = input("请输入客户等级（A-D或a-d）：")
+    num1 = input("请输入订货量：")
+else:
+    print("请输入正确信息！！！\n程序退出！！！")
