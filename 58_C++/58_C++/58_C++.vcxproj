@@ -29,6 +29,8 @@
     <ClCompile Include="10_14.cpp" />
     <ClCompile Include="10_17.cpp" />
     <ClCompile Include="10_18.cpp" />
+    <ClCompile Include="10_20.cpp" />
+    <ClCompile Include="10_20_C.c" />
     <ClCompile Include="test_Person.cpp" />
   </ItemGroup>
   <ItemGroup>
