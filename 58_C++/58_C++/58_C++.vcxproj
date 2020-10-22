@@ -24,13 +24,14 @@
     <ClCompile Include="0922_58.cpp" />
     <ClCompile Include="0924_58.cpp" />
     <ClCompile Include="0929_58.cpp" />
+    <ClCompile Include="10.22.cpp" />
     <ClCompile Include="10_11.cpp" />
     <ClCompile Include="10_12.cpp" />
     <ClCompile Include="10_14.cpp" />
     <ClCompile Include="10_17.cpp" />
     <ClCompile Include="10_18.cpp" />
     <ClCompile Include="10_20.cpp" />
-    <ClCompile Include="10_20_C.c" />
+    <ClCompile Include="10_22_C.c" />
     <ClCompile Include="test_Person.cpp" />
   </ItemGroup>
   <ItemGroup>
