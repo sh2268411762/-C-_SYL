@@ -57,6 +57,12 @@
     <ClCompile Include="10_22_C.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="10.26.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10.27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">

@@ -25,6 +25,8 @@
     <ClCompile Include="0924_58.cpp" />
     <ClCompile Include="0929_58.cpp" />
     <ClCompile Include="10.22.cpp" />
+    <ClCompile Include="10.26.cpp" />
+    <ClCompile Include="10.27.cpp" />
     <ClCompile Include="10_11.cpp" />
     <ClCompile Include="10_12.cpp" />
     <ClCompile Include="10_14.cpp" />
