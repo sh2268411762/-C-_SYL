@@ -115,21 +115,21 @@ from _collections_abc import Iterator
 # print(list(map(lambda x, y: x ** 2 + y ** 2, [1, 2], [2, 3])))
 
 
-# filter函数
-def func(x):
-    return x % 2 != 0
-
-
-print("filter(function or None, iterable)函数把一个带有参数的函数function作用到一个可迭代对象上，并返回一个filter对象，"
-      "\nfilter对象中的元素由可迭代对象中使得函数function返回值为True的元素组成，\n如果指定函数为None，则返回可迭代对象中等价于True的对象")
-l4 = [1.2, 3.4, 5.6, 7.8, 9, -45, -567, 88, 44, 22]
-vl4 = filter(func, l4)
-print("vl4的类型：", type(vl4))
-print("vl4是否为迭代器 ：", isinstance(vl4, Iterable))
-print("vl4是否为迭代对象：", isinstance(vl4, Iterable))
-print("函数表达式", list(filter(func, l4)))
-print("lambda表达式：", list(filter(lambda x: x % 2 != 0, l4)))
-print("列表推导式：", [x for x in l4 if x % 2 != 0])
-
-l5 = [1, 2, 3, 4, 0, 0, False, "", True, "sss", "False"]
-print("\n指定函数为None：", list(filter(None, l5)))
+# # filter函数
+# def func(x):
+#     return x % 2 != 0
+#
+#
+# print("filter(function or None, iterable)函数把一个带有参数的函数function作用到一个可迭代对象上，并返回一个filter对象，"
+#       "\nfilter对象中的元素由可迭代对象中使得函数function返回值为True的元素组成，\n如果指定函数为None，则返回可迭代对象中等价于True的对象")
+# l4 = [1.2, 3.4, 5.6, 7.8, 9, -45, -567, 88, 44, 22]
+# vl4 = filter(func, l4)
+# print("vl4的类型：", type(vl4))
+# print("vl4是否为迭代器 ：", isinstance(vl4, Iterable))
+# print("vl4是否为迭代对象：", isinstance(vl4, Iterable))
+# print("函数表达式", list(filter(func, l4)))
+# print("lambda表达式：", list(filter(lambda x: x % 2 != 0, l4)))
+# print("列表推导式：", [x for x in l4 if x % 2 != 0])
+#
+# l5 = [1, 2, 3, 4, 0, 0, False, "", True, "sss", "False"]
+# print("\n指定函数为None：", list(filter(None, l5)))
