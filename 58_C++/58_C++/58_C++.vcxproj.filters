@@ -63,6 +63,15 @@
     <ClCompile Include="10.27.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="11.2.2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11.2.1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11.3.1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
