@@ -37,6 +37,7 @@
     <ClCompile Include="11.2.2.cpp" />
     <ClCompile Include="11.2.1.cpp" />
     <ClCompile Include="11.3.1.cpp" />
+    <ClCompile Include="11.9.cpp" />
     <ClCompile Include="test_Person.cpp" />
   </ItemGroup>
   <ItemGroup>

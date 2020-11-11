@@ -27,7 +27,10 @@
 //}
 //int main()
 //{
-//	cout << add<int>(2, 3) << endl;
+//	cout << add(2, 3) << endl;       //隐式使用模板
+//	cout << add(2.4, 3.5) << endl;
+//
+//	cout << add<int>(2, 3) << endl;  //显式使用模板
 //	cout << add<double>(12.34, 5) << endl;
 //	cout << add<double>(12.9, 67.8) << endl;
 //	return 0;

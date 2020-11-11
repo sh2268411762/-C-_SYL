@@ -1,7 +1,7 @@
 //#include<iostream>
 //#include<assert.h>
 //using namespace std;
-//模板类
+////模板类
 //
 ////typedef int DataType;     //将int重命名为DataType
 //
@@ -118,19 +118,19 @@
 //
 //
 //
-//	//SeqList<double> s2;
-//	//s2.push_back(1.0);
-//	//s2.push_back(2.0);
-//	//s2.push_back(3.0);
-//	//s2.push_back(4.0);
-//	//cout << s2._capacity() << endl;
-//	//cout << s2._size() << endl;
-//	//s2.pop_back();
-//	//cout << s2._capacity() << endl;
-//	//cout << s2._size() << endl;
+//	SeqList<double> s2;
+//	s2.push_back(1.0);
+//	s2.push_back(2.0);
+//	s2.push_back(3.0);
+//	s2.push_back(4.0);
+//	cout << s2._capacity() << endl;
+//	cout << s2._size() << endl;
+//	s2.pop_back();
+//	cout << s2._capacity() << endl;
+//	cout << s2._size() << endl;
 //
-//	//const SeqList<int> s3;   //无意义
-//	//cout << s3[0] << endl;
+//	const SeqList<int> s3;   //无意义
+//	cout << s3[0] << endl;
 //
 //	return 0;
 //}
