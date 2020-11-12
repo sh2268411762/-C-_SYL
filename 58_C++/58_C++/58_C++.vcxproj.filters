@@ -75,6 +75,9 @@
     <ClCompile Include="11.9.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="11.10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
