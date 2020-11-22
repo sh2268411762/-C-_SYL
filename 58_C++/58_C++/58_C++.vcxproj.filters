@@ -78,9 +78,18 @@
     <ClCompile Include="11.10.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="11.20.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11.22.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
