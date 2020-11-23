@@ -1,10 +1,14 @@
 #pragma once
 
+#include <assert.h>
 namespace bite
 {
 	template<class T>
 	class vector
 	{
+	public:
+		typedef T* iterator;
+
 	public:
 		vector()
 			:start(nullptr)
@@ -14,13 +18,13 @@ namespace bite
 			//	构造函数
 		}
 
-		vector(size_t n, const T& data = T())
+		vector(int n, const T& data = T())
 			:start(new T(n))
 			, finish(start + n)
 			, end_of_stroage(finish)
 		{
 			//memset(start,data,n);   全部设置为0可以，该函数使用字节来初始化
-			for (size_t i = 0; i < n; i++)
+			for (int i = 0; i < n; i++)
 			{
 				start[i] = data;
 			}
@@ -29,7 +33,7 @@ namespace bite
 		template<class Iterator>
 		vector(Iterator first, Iterator last)   //区间构造
 		{
-			distance(first, last);  //两个迭代器之间的距离，即相隔了多少个元素
+//			distance(first, last);  //两个迭代器之间的距离，即相隔了多少个元素
 			auto it = first;
 			size_t count = 0;
 			while (it != last)
@@ -72,22 +76,22 @@ namespace bite
 
 		iterator rbegin()
 		{
-			return finish;
+			return end();
 		}
 
 		iterator rend()
 		{
-			return start;
+			return begin();
 		}
 
 		//////////////////////////////////////////////////
 		//容量
-		size_t size()
+		size_t size()const
 		{
 			return finish - start;
 		}
 
-		size_t capacity()
+		size_t capacity()const
 		{
 			return end_of_stroage - start;
 		}
@@ -206,19 +210,49 @@ namespace bite
 			erase(begin(), end());
 		}
 
-		void swap(vector<T>& v)
-		{
-			std::swap(start, v.start);
-			std::swap(finish, v.finish);
-			std::swap(end_of_stroage, v.end_of_stroage);
-		}
+		//void swap(vector<T>& v)
+		//{
+		//	std::swap(start, v.start);
+		//	std::swap(finish, v.finish);
+		//	std::swap(end_of_stroage, v.end_of_stroage);
+		//}
 
-	public:
-		typedef T* iterator;
 
 	private:
 		iterator start;
 		iterator finish;
 		iterator end_of_stroage;
 	};
+}
+
+#include <iostream>
+using namespace std;
+void Test1()
+{
+	bite::vector<int> v1;        //空的
+	bite::vector<int> v2(10, 5); //10个值为5的元素
+
+	int array[] = { 1,2,3,4,5 };
+//	bite::vector<int> v3(array, array + sizeof(array) / sizeof(array[0]));
+	bite::vector<int> v4(v2);
+
+	for (size_t i = 0; i < v2.size(); i++)
+	{
+		cout << v2[i] << " ";
+	}
+	cout << endl;
+
+	for (auto e : v2)
+	{
+		cout << e << " ";
+	}
+	cout << endl;
+
+	auto it = v2.begin();
+	while (it != v2.end())
+	{
+		cout << *it << " ";
+		it++;
+	}
+	cout << endl;
 }
