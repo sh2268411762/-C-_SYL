@@ -1,10 +1,10 @@
-#include "Vector.h"
-
-
-int main()
-{
-	Test1();
-	return 0;
-}
-
-
+//#include "Vector.h"
+//
+//
+//int main()
+//{
+//	Test1();
+//	return 0;
+//}
+//
+//

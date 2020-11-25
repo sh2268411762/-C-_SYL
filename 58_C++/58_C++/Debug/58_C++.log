@@ -1,2 +1,3 @@
-﻿  11.22.cpp
+﻿  vector_.cpp
+D:\git Code\-C-_SYL\58_C++\58_C++\vector_.cpp(81,9): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
   58_C++.vcxproj -> D:\git Code\-C-_SYL\58_C++\Debug\58_C++.exe

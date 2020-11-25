@@ -42,6 +42,7 @@
     <ClCompile Include="11.3.1.cpp" />
     <ClCompile Include="11.9.cpp" />
     <ClCompile Include="test_Person.cpp" />
+    <ClCompile Include="vector_.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h" />
