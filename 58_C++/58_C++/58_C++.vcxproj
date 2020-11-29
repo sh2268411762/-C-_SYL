@@ -39,12 +39,15 @@
     <ClCompile Include="11.2.1.cpp" />
     <ClCompile Include="11.20.cpp" />
     <ClCompile Include="11.22.cpp" />
+    <ClCompile Include="11.27.2.cpp" />
+    <ClCompile Include="11.27.cpp" />
     <ClCompile Include="11.3.1.cpp" />
     <ClCompile Include="11.9.cpp" />
     <ClCompile Include="test_Person.cpp" />
     <ClCompile Include="vector_.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="List.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>

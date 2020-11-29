@@ -1,3 +1,14 @@
-﻿  vector_.cpp
-D:\git Code\-C-_SYL\58_C++\58_C++\vector_.cpp(81,9): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+﻿  11.27.2.cpp
+D:\git Code\-C-_SYL\58_C++\58_C++\List.h(108,2): warning C4018: “<”: 有符号/无符号不匹配
+D:\git Code\-C-_SYL\58_C++\58_C++\List.h(105): message : 在编译 类 模板 成员函数“bite::list<int>::list(int,const T &)”时
+          with
+          [
+              T=int
+          ]
+D:\git Code\-C-_SYL\58_C++\58_C++\List.h(279): message : 查看对正在编译的函数 模板 实例化“bite::list<int>::list(int,const T &)”的引用
+          with
+          [
+              T=int
+          ]
+D:\git Code\-C-_SYL\58_C++\58_C++\List.h(278): message : 查看对正在编译的 类 模板 实例化“bite::list<int>”的引用
   58_C++.vcxproj -> D:\git Code\-C-_SYL\58_C++\Debug\58_C++.exe
