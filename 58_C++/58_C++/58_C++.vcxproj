@@ -41,6 +41,7 @@
     <ClCompile Include="11.22.cpp" />
     <ClCompile Include="11.27.2.cpp" />
     <ClCompile Include="11.27.cpp" />
+    <ClCompile Include="11.29.cpp" />
     <ClCompile Include="11.3.1.cpp" />
     <ClCompile Include="11.9.cpp" />
     <ClCompile Include="test_Person.cpp" />
@@ -49,6 +50,8 @@
   <ItemGroup>
     <ClInclude Include="List.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="stack.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>

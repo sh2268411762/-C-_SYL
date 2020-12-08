@@ -93,6 +93,9 @@
     <ClCompile Include="11.27.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="11.29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
@@ -102,6 +105,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
