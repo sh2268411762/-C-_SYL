@@ -1,0 +1,4 @@
+"D:\CLion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "D:\git Code\-C-_SYL\58C++_2021"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/git Code/-C-_SYL/58C++_2021/cmake-build-debug

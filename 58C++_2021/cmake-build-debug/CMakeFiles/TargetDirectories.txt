@@ -1,0 +1,3 @@
+D:/git Code/-C-_SYL/58C++_2021/cmake-build-debug/CMakeFiles/58C___2021.dir
+D:/git Code/-C-_SYL/58C++_2021/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/git Code/-C-_SYL/58C++_2021/cmake-build-debug/CMakeFiles/rebuild_cache.dir
