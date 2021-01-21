@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/git Code/-C-_SYL/58C++_2021/58C++_2021/20.12.13.1.cpp" "D:/git Code/-C-_SYL/58C++_2021/cmake-build-debug/CMakeFiles/58C___2021.dir/58C++_2021/20.12.13.1.cpp.obj"
   "D:/git Code/-C-_SYL/58C++_2021/58C++_2021/20.12.13.cpp" "D:/git Code/-C-_SYL/58C++_2021/cmake-build-debug/CMakeFiles/58C___2021.dir/58C++_2021/20.12.13.cpp.obj"
+  "D:/git Code/-C-_SYL/58C++_2021/58C++_2021/20.12.18.cpp" "D:/git Code/-C-_SYL/58C++_2021/cmake-build-debug/CMakeFiles/58C___2021.dir/58C++_2021/20.12.18.cpp.obj"
+  "D:/git Code/-C-_SYL/58C++_2021/58C++_2021/20.18.2.cpp" "D:/git Code/-C-_SYL/58C++_2021/cmake-build-debug/CMakeFiles/58C___2021.dir/58C++_2021/20.18.2.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

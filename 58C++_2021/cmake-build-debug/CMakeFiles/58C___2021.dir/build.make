@@ -99,19 +99,61 @@ CMakeFiles\58C___2021.dir\58C++_2021\20.12.13.1.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\58C___2021.dir\58C++_2021\20.12.13.1.cpp.s /c "D:\git Code\-C-_SYL\58C++_2021\58C++_2021\20.12.13.1.cpp"
 <<
 
+CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.obj: CMakeFiles\58C___2021.dir\flags.make
+CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.obj: ..\58C++_2021\20.12.18.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\git Code\-C-_SYL\58C++_2021\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/58C___2021.dir/58C++_2021/20.12.18.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\MSVC\14.28.29617\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.obj /FdCMakeFiles\58C___2021.dir\ /FS -c "D:\git Code\-C-_SYL\58C++_2021\58C++_2021\20.12.18.cpp"
+<<
+
+CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/58C___2021.dir/58C++_2021/20.12.18.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\MSVC\14.28.29617\bin\Hostx86\x86\cl.exe > CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\git Code\-C-_SYL\58C++_2021\58C++_2021\20.12.18.cpp"
+<<
+
+CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/58C___2021.dir/58C++_2021/20.12.18.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\MSVC\14.28.29617\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.s /c "D:\git Code\-C-_SYL\58C++_2021\58C++_2021\20.12.18.cpp"
+<<
+
+CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.obj: CMakeFiles\58C___2021.dir\flags.make
+CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.obj: ..\58C++_2021\20.18.2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\git Code\-C-_SYL\58C++_2021\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/58C___2021.dir/58C++_2021/20.18.2.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\MSVC\14.28.29617\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.obj /FdCMakeFiles\58C___2021.dir\ /FS -c "D:\git Code\-C-_SYL\58C++_2021\58C++_2021\20.18.2.cpp"
+<<
+
+CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/58C___2021.dir/58C++_2021/20.18.2.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\MSVC\14.28.29617\bin\Hostx86\x86\cl.exe > CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\git Code\-C-_SYL\58C++_2021\58C++_2021\20.18.2.cpp"
+<<
+
+CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/58C___2021.dir/58C++_2021/20.18.2.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\MSVC\14.28.29617\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.s /c "D:\git Code\-C-_SYL\58C++_2021\58C++_2021\20.18.2.cpp"
+<<
+
 # Object files for target 58C___2021
 58C___2021_OBJECTS = \
 "CMakeFiles\58C___2021.dir\58C++_2021\20.12.13.cpp.obj" \
-"CMakeFiles\58C___2021.dir\58C++_2021\20.12.13.1.cpp.obj"
+"CMakeFiles\58C___2021.dir\58C++_2021\20.12.13.1.cpp.obj" \
+"CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.obj" \
+"CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.obj"
 
 # External object files for target 58C___2021
 58C___2021_EXTERNAL_OBJECTS =
 
 58C___2021.exe: CMakeFiles\58C___2021.dir\58C++_2021\20.12.13.cpp.obj
 58C___2021.exe: CMakeFiles\58C___2021.dir\58C++_2021\20.12.13.1.cpp.obj
+58C___2021.exe: CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.obj
+58C___2021.exe: CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.obj
 58C___2021.exe: CMakeFiles\58C___2021.dir\build.make
 58C___2021.exe: CMakeFiles\58C___2021.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\git Code\-C-_SYL\58C++_2021\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 58C___2021.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\git Code\-C-_SYL\58C++_2021\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 58C___2021.exe"
 	"D:\CLion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\58C___2021.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\MSVC\14.28.29617\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\58C___2021.dir\objects1.rsp @<<
  /out:58C___2021.exe /implib:58C___2021.lib /pdb:"D:\git Code\-C-_SYL\58C++_2021\cmake-build-debug\58C___2021.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

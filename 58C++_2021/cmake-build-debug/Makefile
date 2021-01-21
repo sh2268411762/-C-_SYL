@@ -181,6 +181,60 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\58C___2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\58C___2021.dir\58C++_2021\20.12.13.cpp.s
 .PHONY : 58C++_2021\20.12.13.cpp.s
 
+58C++_2021\20.12.18.obj: 58C++_2021\20.12.18.cpp.obj
+
+.PHONY : 58C++_2021\20.12.18.obj
+
+# target to build an object file
+58C++_2021\20.12.18.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\58C___2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.obj
+.PHONY : 58C++_2021\20.12.18.cpp.obj
+
+58C++_2021\20.12.18.i: 58C++_2021\20.12.18.cpp.i
+
+.PHONY : 58C++_2021\20.12.18.i
+
+# target to preprocess a source file
+58C++_2021\20.12.18.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\58C___2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.i
+.PHONY : 58C++_2021\20.12.18.cpp.i
+
+58C++_2021\20.12.18.s: 58C++_2021\20.12.18.cpp.s
+
+.PHONY : 58C++_2021\20.12.18.s
+
+# target to generate assembly for a file
+58C++_2021\20.12.18.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\58C___2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\58C___2021.dir\58C++_2021\20.12.18.cpp.s
+.PHONY : 58C++_2021\20.12.18.cpp.s
+
+58C++_2021\20.18.2.obj: 58C++_2021\20.18.2.cpp.obj
+
+.PHONY : 58C++_2021\20.18.2.obj
+
+# target to build an object file
+58C++_2021\20.18.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\58C___2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.obj
+.PHONY : 58C++_2021\20.18.2.cpp.obj
+
+58C++_2021\20.18.2.i: 58C++_2021\20.18.2.cpp.i
+
+.PHONY : 58C++_2021\20.18.2.i
+
+# target to preprocess a source file
+58C++_2021\20.18.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\58C___2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.i
+.PHONY : 58C++_2021\20.18.2.cpp.i
+
+58C++_2021\20.18.2.s: 58C++_2021\20.18.2.cpp.s
+
+.PHONY : 58C++_2021\20.18.2.s
+
+# target to generate assembly for a file
+58C++_2021\20.18.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\58C___2021.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\58C___2021.dir\58C++_2021\20.18.2.cpp.s
+.PHONY : 58C++_2021\20.18.2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -196,6 +250,12 @@ help:
 	@echo ... 58C++_2021/20.12.13.obj
 	@echo ... 58C++_2021/20.12.13.i
 	@echo ... 58C++_2021/20.12.13.s
+	@echo ... 58C++_2021/20.12.18.obj
+	@echo ... 58C++_2021/20.12.18.i
+	@echo ... 58C++_2021/20.12.18.s
+	@echo ... 58C++_2021/20.18.2.obj
+	@echo ... 58C++_2021/20.18.2.i
+	@echo ... 58C++_2021/20.18.2.s
 .PHONY : help
 
 
